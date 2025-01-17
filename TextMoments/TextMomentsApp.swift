@@ -11,7 +11,7 @@ import SwiftUI
 struct TextMomentsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BlurView()
         }
     }
 }

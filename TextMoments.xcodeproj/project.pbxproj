@@ -11,6 +11,13 @@
 		76DCDCA52C64696100A00462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCDCA42C64696100A00462 /* ContentView.swift */; };
 		76DCDCA72C64696300A00462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DCDCA62C64696300A00462 /* Assets.xcassets */; };
 		76DCDCAA2C64696300A00462 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DCDCA92C64696300A00462 /* Preview Assets.xcassets */; };
+		76DCDCB12C65B52700A00462 /* blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCDCB02C65B52700A00462 /* blur.swift */; };
+		76DCDCB72C6759BA00A00462 /* SettingVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCDCB62C6759BA00A00462 /* SettingVIew.swift */; };
+		76DCDCB92C6759F100A00462 /* storekitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCDCB82C6759F100A00462 /* storekitManager.swift */; };
+		76DCDCBD2C675A8600A00462 /* Propertylist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76DCDCBC2C675A8600A00462 /* Propertylist.plist */; };
+		76DCDCC02C675E1D00A00462 /* SendEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DCDCBF2C675E1D00A00462 /* SendEmailView.swift */; };
+		76DCDCC22C676AEA00A00462 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 76DCDCC12C676AEA00A00462 /* Localizable.xcstrings */; };
+		76DCDCC42C676BCA00A00462 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 76DCDCC32C676BCA00A00462 /* InfoPlist.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,14 @@
 		76DCDCA42C64696100A00462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76DCDCA62C64696300A00462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76DCDCA92C64696300A00462 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76DCDCB02C65B52700A00462 /* blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blur.swift; sourceTree = "<group>"; };
+		76DCDCB62C6759BA00A00462 /* SettingVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVIew.swift; sourceTree = "<group>"; };
+		76DCDCB82C6759F100A00462 /* storekitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storekitManager.swift; sourceTree = "<group>"; };
+		76DCDCBC2C675A8600A00462 /* Propertylist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Propertylist.plist; sourceTree = "<group>"; };
+		76DCDCBE2C675D3B00A00462 /* DiffuseCardPro.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = DiffuseCardPro.storekit; sourceTree = "<group>"; };
+		76DCDCBF2C675E1D00A00462 /* SendEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendEmailView.swift; sourceTree = "<group>"; };
+		76DCDCC12C676AEA00A00462 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		76DCDCC32C676BCA00A00462 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +50,8 @@
 		76DCDC962C64696100A00462 = {
 			isa = PBXGroup;
 			children = (
+				76DCDCC32C676BCA00A00462 /* InfoPlist.xcstrings */,
+				76DCDCC12C676AEA00A00462 /* Localizable.xcstrings */,
 				76DCDCA12C64696100A00462 /* TextMoments */,
 				76DCDCA02C64696100A00462 /* Products */,
 			);
@@ -51,9 +68,15 @@
 		76DCDCA12C64696100A00462 /* TextMoments */ = {
 			isa = PBXGroup;
 			children = (
+				76DCDCB02C65B52700A00462 /* blur.swift */,
+				76DCDCB62C6759BA00A00462 /* SettingVIew.swift */,
+				76DCDCBF2C675E1D00A00462 /* SendEmailView.swift */,
+				76DCDCBC2C675A8600A00462 /* Propertylist.plist */,
+				76DCDCB82C6759F100A00462 /* storekitManager.swift */,
 				76DCDCA22C64696100A00462 /* TextMomentsApp.swift */,
 				76DCDCA42C64696100A00462 /* ContentView.swift */,
 				76DCDCA62C64696300A00462 /* Assets.xcassets */,
+				76DCDCBE2C675D3B00A00462 /* DiffuseCardPro.storekit */,
 				76DCDCA82C64696300A00462 /* Preview Content */,
 			);
 			path = TextMoments;
@@ -109,6 +132,25 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				fr,
+				it,
+				ko,
+				es,
+				"zh-Hans",
+				"zh-HK",
+				de,
+				th,
+				tr,
+				vi,
+				sv,
+				pl,
+				ar,
+				"pt-BR",
+				"pt-PT",
+				hi,
+				el,
+				da,
 			);
 			mainGroup = 76DCDC962C64696100A00462;
 			productRefGroup = 76DCDCA02C64696100A00462 /* Products */;
@@ -125,7 +167,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DCDCBD2C675A8600A00462 /* Propertylist.plist in Resources */,
+				76DCDCC42C676BCA00A00462 /* InfoPlist.xcstrings in Resources */,
 				76DCDCAA2C64696300A00462 /* Preview Assets.xcassets in Resources */,
+				76DCDCC22C676AEA00A00462 /* Localizable.xcstrings in Resources */,
 				76DCDCA72C64696300A00462 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DCDCB72C6759BA00A00462 /* SettingVIew.swift in Sources */,
+				76DCDCB92C6759F100A00462 /* storekitManager.swift in Sources */,
+				76DCDCC02C675E1D00A00462 /* SendEmailView.swift in Sources */,
 				76DCDCA52C64696100A00462 /* ContentView.swift in Sources */,
 				76DCDCA32C64696100A00462 /* TextMomentsApp.swift in Sources */,
+				76DCDCB12C65B52700A00462 /* blur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,6 +324,7 @@
 				DEVELOPMENT_TEAM = F7TRH9293R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = " Use Photo Library to save generated image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,7 +334,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = siantgirl.com.TextMoments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -304,6 +354,7 @@
 				DEVELOPMENT_TEAM = F7TRH9293R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = " Use Photo Library to save generated image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,7 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = siantgirl.com.TextMoments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
